@@ -18,10 +18,7 @@ for Lab in result:
     emplys.append(emply)
 
 # Create a DataFrame using a dictionary of lists
-df = pd.DataFrame({
-    "Year": years,
-    "emply": emplys
-})
+df = pd.DataFrame({"Year": years,"emply": emplys})
 
 print(df)
 
